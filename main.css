@@ -1,0 +1,19 @@
+body { 
+    background-image: url("./img/bg.png"); 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", Ubuntu, Cantarell, "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    background: #ffe;
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 10px 10px 10px #3333;
+
+    text-align: center;
+}
